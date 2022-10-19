@@ -1,0 +1,47 @@
+@import url("reset.css");
+
+body{
+    background-color: #f6f6f6;
+    padding-top: 50px;
+    color: #333;
+    font-family: monospace;
+    line-height: 1.6;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    outline: 1px solid #ccc;
+}
+
+.wrapper > img{
+    display: block;
+}
+
+ul{
+    background-color: #fff;
+    padding: 20px 50px 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+li{}
+
+li img{
+    display: block;
+}
+
+li:last-child{
+    align-self: center;
+}
+
+h1{
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+p{
+    padding-bottom: 15px;
+}
+
+

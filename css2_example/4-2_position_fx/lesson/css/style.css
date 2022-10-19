@@ -1,0 +1,47 @@
+@import url('reset.css');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #e5e5e5;
+}
+
+.top{
+    background-color: #fff;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

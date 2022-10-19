@@ -1,0 +1,150 @@
+@import url('reset.css');
+
+body{
+    font-family: Arial;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* -- logo+主選單 -- */
+
+header{
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+header img{
+    float: left;
+}
+
+header ul{
+    float: right;
+}
+
+header li{
+    float: left;
+    padding: 0 20px;
+}
+
+header li a{
+    text-decoration: none;
+    color: black;
+    line-height: 94px;
+    font-size: 18px;
+}
+
+/* -- top -- */
+
+.top{
+    background-image: url(../img/main_kv.jpg);
+    width: 1200px;
+    height: 675px;
+}
+
+section{
+    padding-left: 55px;
+    padding-top: 110px;
+    width: 500px;
+}
+
+section h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(216, 180, 113);
+}
+
+section h2{
+    font-size: 33px;
+    color: gray;
+    padding-top: 10px;
+}
+
+section a{
+    display: block;
+    background-color: rgb(243, 243, 243);
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    width: 200px;
+    margin: 30px 0 ;
+    padding: 10px;
+    font-weight: bold;
+}
+
+section p{
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* -- 中間文字+卡片 -- */
+
+.main{}
+
+/* -- 中間文字 -- */
+
+.text{
+    line-height: 1.6;
+    padding: 0 70px;
+    padding-top: 60px;
+}
+
+.text h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(216, 180, 113);
+    text-align: center;
+}
+
+.text p{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* -- 卡片 -- */
+
+.main ul{}
+
+.main li{
+    display: inline-block;
+    width: 339px;
+    text-align: left;
+    margin: 40px 25px;
+    background-color: rgb(134, 124, 112);
+    color: white;
+    line-height: 1.6;
+}
+
+.main li img{}
+
+h3{
+    font-size: 25px;
+    padding-top: 10px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main li p{
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main a{
+    display: block;
+    background-color: rgb(134, 124, 112);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto ;
+    margin-bottom: 40px;
+    padding: 10px;
+}

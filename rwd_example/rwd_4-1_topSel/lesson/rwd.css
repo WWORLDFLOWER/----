@@ -1,0 +1,53 @@
+
+@media screen and (max-width:414px) {
+    .topMain{
+      width: auto;
+      height: 60px;
+      position: relative;
+    }
+    .topMain img{
+      height: 50px;
+      margin-top: 5px;
+      margin-left: 10px;
+    }
+  
+    .topMain .fa{
+        display: block;
+        float: right;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .topMain ul{
+        display: none;
+        background-color: #d1c0a5;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        width: 100%;
+    }
+    .topMain .fa:hover ~ ul{
+        display: block;
+    }
+
+    .topMain li{
+        float: none;
+        clear: both;
+        line-height: 40px;
+        border-bottom: 1px solid #a6937c;
+    }
+
+    .kvMain{
+        width: auto;
+        height: 300px;
+    }
+
+    .kvMain h1{
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    .kvMain h2{
+        font-size: 1em;
+    }
+  }
+  

@@ -1,0 +1,97 @@
+@import url('reset.css');
+
+body{
+    background-image: url(../img/html_fixed_bg.jpg);
+    background-attachment: fixed;
+    font-family : arial;
+}
+
+#wrapper{}
+
+/* -- top picture -- */
+
+.text{
+    padding-top: 80px;
+}
+
+.head{
+    background-image: url(../img/top_bg.jpg);
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+h1{
+    color: white;
+    font-size: 60px;
+    display: block;
+    width: 500px;
+    border-left: 8px solid orange;
+    line-height: 1.6;
+    margin-left: 90px;
+    padding-left:30px;
+}
+
+h2{
+    color: green;
+    font-size: 40px;
+    display: block;
+    width: 500px;
+    border-left: 8px solid orange;
+    line-height: 1.6;
+    margin-left: 90px;
+    padding-left:30px;
+}
+
+/* -- white background -- */
+
+.card{
+    margin: 0 auto;
+    background-color: white;
+    width: 1200px;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    border: 0.5px solid gray;
+    display: inline-block;
+    width: 300px;
+    margin: 80px 15px;
+}
+
+img{}
+
+h3{
+    color: green;
+    font-size: 30px;
+    text-align: left;
+    padding: 15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+p{
+    text-align: left;
+    line-height: 1.6;
+    font-size: 18px;
+    padding:0 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+/* -- little black background -- */
+
+.bottom{
+    background-color: rgb(43, 40, 40);
+    width: 1200px;
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+}

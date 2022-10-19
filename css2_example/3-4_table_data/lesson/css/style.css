@@ -1,0 +1,54 @@
+@import url('reset.css');
+
+body{
+	background-color: #eee;
+	font-family: Arial;
+}
+
+.out{
+	width: 1200px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+img{
+	display: block;
+}
+
+/* ------------- table --------------- */
+
+table{
+	width: 1000px;
+	margin: 0 auto;
+	border: 5px solid #eee;
+}
+
+.title{
+	background-color: red;
+	color: white;
+	text-align: center;
+	height: 30px;
+}
+
+.body{
+	text-align: center;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

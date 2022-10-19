@@ -1,0 +1,120 @@
+
+@media screen and (max-width: 414px) {
+	
+	.out{
+		width: 100%;
+	}
+
+/* --------------- header ------------- */
+	header{
+		height: auto;
+		background-size: cover;
+		background-position: right center;
+	}
+
+	.top{
+		height: 60px;
+		padding: 0 20px;
+		background-color: #fff;
+		border-bottom: 1px solid #e5e5e5;
+		background-color: rgba(255,255,255,.7);
+
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.top i{
+		display: block;
+	}
+
+	.top ul{
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		right: 0;
+		top: 61px;
+		background-color: #fff;
+		width: 100%;
+	}
+
+	.top li{
+		margin-left: 0;
+	}
+
+	.top li a{
+		line-height: 60px;
+	}
+
+	.top i:hover ~ ul{
+		display: flex;
+	}
+
+	.title{
+		width: auto;
+		margin: 0;
+		float: none;
+		padding: 100px 30px 50px 30px;
+	}
+
+	.title h1{
+		font-size: 28px;
+	}
+
+	/* --------------- about ------------- */
+	.about{
+		padding: 50px 0;
+	}
+
+	.about p{
+		width: auto;
+		padding: 0 30px;
+	}
+
+	/* --------------- skills ------------- */
+	.skill{
+		flex-direction: column;
+	}
+
+	.skill img{
+		order: 1;
+		width: 100%;
+	}
+
+	.skill-content{
+		order: 2;
+		padding: 80px 50px;
+	}
+
+	/* --------------- list ------------- */
+	.list ul{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.list li{
+		padding: 30px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

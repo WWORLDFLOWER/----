@@ -1,0 +1,65 @@
+
+@media screen and (max-width: 414px) {
+
+  html,body{
+    height: 100%;
+  }
+  
+  .wrapper{
+    position: static;
+    width: auto;
+    height: 100%;
+    padding: 0;
+    box-shadow: none;
+    background-image: url(../img/main_image_mobile.jpg);
+    background-size: contain;
+    background-position: left 50px;
+  }
+
+  .wrapper img{
+    height: 30px;
+    margin-bottom: 0;
+    padding: 10px 0 0 10px;
+  }
+
+  .wrapper h1{
+    font-size: 42px;
+    padding: 30px 0 0 20px;
+    text-shadow: 0 0 3px white;
+  }
+
+  .wrapper p{
+    width: auto;
+    text-align: center;
+    padding: 0 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  .wrapper > a{
+    margin: 0 auto;
+  }
+
+  .wrapper ul{
+    bottom: 30px;
+    width: 144px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

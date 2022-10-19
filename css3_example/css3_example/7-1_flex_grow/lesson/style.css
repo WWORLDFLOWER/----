@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+body{
+    background-color: #e5e5e5;
+    font-family: monospace;
+    padding-top: 50px;
+}
+
+.sel{
+    height: 70px;
+    width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-image: linear-gradient(0deg,#e5e5e5 0%,#fff 100%);
+    border: 1px soild #ccc;
+    display: flex;
+}
+
+.sel li{
+    box-sizing: border-box;
+    border-right: 1px soild #ccc;
+    flex-grow: 1;
+}
+
+.sel li a{
+    display: block;
+    line-height: 70px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+img{
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
